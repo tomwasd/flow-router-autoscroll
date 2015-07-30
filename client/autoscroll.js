@@ -39,11 +39,5 @@ var scrollToTop = function () {
   });
 };
 
-if (Package['kadira:flow-router']) {
-	FlowRouter.triggers.exit([saveScrollPosition]);
-	FlowRouter.triggers.enter([scrollToTop]);
-} else {
-  if (console.warn) {
-    console.warn("The tomwasd:flow-router-autoscroll package requires kadira:flow-router, please add it.");
-  } 
-}
+FlowRouter.triggers.exit([saveScrollPosition]);
+FlowRouter.triggers.enter([scrollToTop]);

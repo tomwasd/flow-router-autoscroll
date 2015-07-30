@@ -36,9 +36,3 @@ To change this use:
 ``` javascript
 FlowRouterAutoscroll.animationDuration = 100;
 ```
-
-Other notes
----------------
-
-This package enhances Flow Router.
-If Flow Router isn't already added to the app it does nothing (it doesn't automatically add Flow Router for you).
