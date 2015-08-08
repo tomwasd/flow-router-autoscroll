@@ -2,8 +2,9 @@ base64@1.0.3
 coffeescript@1.0.6
 cosmos:browserify@0.5.0
 ejson@1.0.6
+jquery@1.11.3_2
 json@1.0.3
-kadira:flow-router@2.0.0
+kadira:flow-router@2.1.0
 meteor@1.1.6
 reactive-dict@1.1.0
 reactive-var@1.0.5

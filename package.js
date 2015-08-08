@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tomwasd:flow-router-autoscroll',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Fixes page position after changing pages using Flow Router',
   git: 'https://github.com/tomwasd/flow-router-autoscroll',
   documentation: 'README.md'
