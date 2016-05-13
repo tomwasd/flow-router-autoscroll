@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.use('kadira:flow-router@2.0.0');
+  api.use('kadira:flow-router@2.0.0', 'client', {weak: true});
   api.addFiles('client/autoscroll.js', 'client');
   api.export('FlowRouterAutoscroll', 'client');
 });
